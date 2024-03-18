@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=miuicamera-mondrian
+DEVICE=miuicamera-unicorn
 VENDOR=xiaomi
 
 # Load extract_utils and do some sanity checks
