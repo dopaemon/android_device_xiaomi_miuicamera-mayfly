@@ -26,3 +26,8 @@ PRODUCT_SOONG_NAMESPACES += \
 # Sysconfig
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/miuicamera-hiddenapi-package-allowlist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/miuicamera-hiddenapi-package-allowlist.xml
+
+# Overlays
+PRODUCT_PACKAGES += \
+    MiuiCameraOverlayIcon \
+    MiuiCameraOverlayLeicaed
